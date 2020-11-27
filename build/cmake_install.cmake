@@ -131,6 +131,7 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/leizhao/Autonomous_RCRobot/build/gtest/cmake_install.cmake")
+  include("/home/leizhao/Autonomous_RCRobot/build/mpu6050_serial_to_imu/cmake_install.cmake")
 
 endif()
 
