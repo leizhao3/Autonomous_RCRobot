@@ -1,8 +1,8 @@
-# Install script for directory: /home/leizhao/Autonomous_RCRobot/src/mpu6050_serial_to_imu
+# Install script for directory: /home/odroid/Autonomous_RCRobot/src/mpu6050_serial_to_imu
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/leizhao/Autonomous_RCRobot/install")
+  set(CMAKE_INSTALL_PREFIX "/home/odroid/Autonomous_RCRobot/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,18 +38,18 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/leizhao/Autonomous_RCRobot/build/mpu6050_serial_to_imu/catkin_generated/installspace/mpu6050_serial_to_imu.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/odroid/Autonomous_RCRobot/build/mpu6050_serial_to_imu/catkin_generated/installspace/mpu6050_serial_to_imu.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mpu6050_serial_to_imu/cmake" TYPE FILE FILES
-    "/home/leizhao/Autonomous_RCRobot/build/mpu6050_serial_to_imu/catkin_generated/installspace/mpu6050_serial_to_imuConfig.cmake"
-    "/home/leizhao/Autonomous_RCRobot/build/mpu6050_serial_to_imu/catkin_generated/installspace/mpu6050_serial_to_imuConfig-version.cmake"
+    "/home/odroid/Autonomous_RCRobot/build/mpu6050_serial_to_imu/catkin_generated/installspace/mpu6050_serial_to_imuConfig.cmake"
+    "/home/odroid/Autonomous_RCRobot/build/mpu6050_serial_to_imu/catkin_generated/installspace/mpu6050_serial_to_imuConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mpu6050_serial_to_imu" TYPE FILE FILES "/home/leizhao/Autonomous_RCRobot/src/mpu6050_serial_to_imu/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mpu6050_serial_to_imu" TYPE FILE FILES "/home/odroid/Autonomous_RCRobot/src/mpu6050_serial_to_imu/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -59,7 +59,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/mpu6050_serial_to_imu/mpu6050_serial_to_imu_node"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/mpu6050_serial_to_imu" TYPE EXECUTABLE FILES "/home/leizhao/Autonomous_RCRobot/devel/lib/mpu6050_serial_to_imu/mpu6050_serial_to_imu_node")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/mpu6050_serial_to_imu" TYPE EXECUTABLE FILES "/home/odroid/Autonomous_RCRobot/devel/lib/mpu6050_serial_to_imu/mpu6050_serial_to_imu_node")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/mpu6050_serial_to_imu/mpu6050_serial_to_imu_node" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/mpu6050_serial_to_imu/mpu6050_serial_to_imu_node")
     file(RPATH_CHANGE
@@ -73,10 +73,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mpu6050_serial_to_imu" TYPE DIRECTORY FILES "/home/leizhao/Autonomous_RCRobot/src/mpu6050_serial_to_imu/launch")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mpu6050_serial_to_imu" TYPE DIRECTORY FILES "/home/odroid/Autonomous_RCRobot/src/mpu6050_serial_to_imu/launch")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mpu6050_serial_to_imu" TYPE DIRECTORY FILES "/home/leizhao/Autonomous_RCRobot/src/mpu6050_serial_to_imu/rviz")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mpu6050_serial_to_imu" TYPE DIRECTORY FILES "/home/odroid/Autonomous_RCRobot/src/mpu6050_serial_to_imu/rviz")
 endif()
 

@@ -7,7 +7,8 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/leizhao/Autonomous_RCRobot/devel:$CMAKE_PREFIX_PATH"
-export PWD='/home/leizhao/Autonomous_RCRobot/build'
-export ROSLISP_PACKAGE_DIRECTORIES='/home/leizhao/Autonomous_RCRobot/devel/share/common-lisp'
-export ROS_PACKAGE_PATH="/home/leizhao/Autonomous_RCRobot/src:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/odroid/Autonomous_RCRobot/devel:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/odroid/Autonomous_RCRobot/devel/lib:$LD_LIBRARY_PATH"
+export PWD='/home/odroid/Autonomous_RCRobot/build'
+export ROSLISP_PACKAGE_DIRECTORIES='/home/odroid/Autonomous_RCRobot/devel/share/common-lisp'
+export ROS_PACKAGE_PATH="/home/odroid/Autonomous_RCRobot/src:$ROS_PACKAGE_PATH"

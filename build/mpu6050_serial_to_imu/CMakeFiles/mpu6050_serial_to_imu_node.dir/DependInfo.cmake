@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/leizhao/Autonomous_RCRobot/src/mpu6050_serial_to_imu/src/mpu6050_serial_to_imu_node.cpp" "/home/leizhao/Autonomous_RCRobot/build/mpu6050_serial_to_imu/CMakeFiles/mpu6050_serial_to_imu_node.dir/src/mpu6050_serial_to_imu_node.cpp.o"
+  "/home/odroid/Autonomous_RCRobot/src/mpu6050_serial_to_imu/src/mpu6050_serial_to_imu_node.cpp" "/home/odroid/Autonomous_RCRobot/build/mpu6050_serial_to_imu/CMakeFiles/mpu6050_serial_to_imu_node.dir/src/mpu6050_serial_to_imu_node.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

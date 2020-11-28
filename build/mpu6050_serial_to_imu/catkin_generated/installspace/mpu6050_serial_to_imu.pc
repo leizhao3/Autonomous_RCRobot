@@ -1,4 +1,4 @@
-prefix=/home/leizhao/Autonomous_RCRobot/install
+prefix=/home/odroid/Autonomous_RCRobot/install
 
 Name: mpu6050_serial_to_imu
 Description: Description of mpu6050_serial_to_imu

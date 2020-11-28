@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/mpu6050_serial_to_imu_node.dir/src/mpu6050_serial_to_imu_node.cpp.o"
-  "/home/leizhao/Autonomous_RCRobot/devel/lib/mpu6050_serial_to_imu/mpu6050_serial_to_imu_node.pdb"
-  "/home/leizhao/Autonomous_RCRobot/devel/lib/mpu6050_serial_to_imu/mpu6050_serial_to_imu_node"
+  "/home/odroid/Autonomous_RCRobot/devel/lib/mpu6050_serial_to_imu/mpu6050_serial_to_imu_node.pdb"
+  "/home/odroid/Autonomous_RCRobot/devel/lib/mpu6050_serial_to_imu/mpu6050_serial_to_imu_node"
 )
 
 # Per-language clean rules from dependency scanning.

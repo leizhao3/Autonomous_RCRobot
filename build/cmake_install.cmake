@@ -1,8 +1,8 @@
-# Install script for directory: /home/leizhao/Autonomous_RCRobot/src
+# Install script for directory: /home/odroid/Autonomous_RCRobot/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/leizhao/Autonomous_RCRobot/install")
+  set(CMAKE_INSTALL_PREFIX "/home/odroid/Autonomous_RCRobot/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,89 +49,89 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/leizhao/Autonomous_RCRobot/install/_setup_util.py")
+   "/home/odroid/Autonomous_RCRobot/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/leizhao/Autonomous_RCRobot/install" TYPE PROGRAM FILES "/home/leizhao/Autonomous_RCRobot/build/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/home/odroid/Autonomous_RCRobot/install" TYPE PROGRAM FILES "/home/odroid/Autonomous_RCRobot/build/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/leizhao/Autonomous_RCRobot/install/env.sh")
+   "/home/odroid/Autonomous_RCRobot/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/leizhao/Autonomous_RCRobot/install" TYPE PROGRAM FILES "/home/leizhao/Autonomous_RCRobot/build/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/home/odroid/Autonomous_RCRobot/install" TYPE PROGRAM FILES "/home/odroid/Autonomous_RCRobot/build/catkin_generated/installspace/env.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/leizhao/Autonomous_RCRobot/install/setup.bash;/home/leizhao/Autonomous_RCRobot/install/local_setup.bash")
+   "/home/odroid/Autonomous_RCRobot/install/setup.bash;/home/odroid/Autonomous_RCRobot/install/local_setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/leizhao/Autonomous_RCRobot/install" TYPE FILE FILES
-    "/home/leizhao/Autonomous_RCRobot/build/catkin_generated/installspace/setup.bash"
-    "/home/leizhao/Autonomous_RCRobot/build/catkin_generated/installspace/local_setup.bash"
+file(INSTALL DESTINATION "/home/odroid/Autonomous_RCRobot/install" TYPE FILE FILES
+    "/home/odroid/Autonomous_RCRobot/build/catkin_generated/installspace/setup.bash"
+    "/home/odroid/Autonomous_RCRobot/build/catkin_generated/installspace/local_setup.bash"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/leizhao/Autonomous_RCRobot/install/setup.sh;/home/leizhao/Autonomous_RCRobot/install/local_setup.sh")
+   "/home/odroid/Autonomous_RCRobot/install/setup.sh;/home/odroid/Autonomous_RCRobot/install/local_setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/leizhao/Autonomous_RCRobot/install" TYPE FILE FILES
-    "/home/leizhao/Autonomous_RCRobot/build/catkin_generated/installspace/setup.sh"
-    "/home/leizhao/Autonomous_RCRobot/build/catkin_generated/installspace/local_setup.sh"
+file(INSTALL DESTINATION "/home/odroid/Autonomous_RCRobot/install" TYPE FILE FILES
+    "/home/odroid/Autonomous_RCRobot/build/catkin_generated/installspace/setup.sh"
+    "/home/odroid/Autonomous_RCRobot/build/catkin_generated/installspace/local_setup.sh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/leizhao/Autonomous_RCRobot/install/setup.zsh;/home/leizhao/Autonomous_RCRobot/install/local_setup.zsh")
+   "/home/odroid/Autonomous_RCRobot/install/setup.zsh;/home/odroid/Autonomous_RCRobot/install/local_setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/leizhao/Autonomous_RCRobot/install" TYPE FILE FILES
-    "/home/leizhao/Autonomous_RCRobot/build/catkin_generated/installspace/setup.zsh"
-    "/home/leizhao/Autonomous_RCRobot/build/catkin_generated/installspace/local_setup.zsh"
+file(INSTALL DESTINATION "/home/odroid/Autonomous_RCRobot/install" TYPE FILE FILES
+    "/home/odroid/Autonomous_RCRobot/build/catkin_generated/installspace/setup.zsh"
+    "/home/odroid/Autonomous_RCRobot/build/catkin_generated/installspace/local_setup.zsh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/leizhao/Autonomous_RCRobot/install/.rosinstall")
+   "/home/odroid/Autonomous_RCRobot/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/leizhao/Autonomous_RCRobot/install" TYPE FILE FILES "/home/leizhao/Autonomous_RCRobot/build/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/home/odroid/Autonomous_RCRobot/install" TYPE FILE FILES "/home/odroid/Autonomous_RCRobot/build/catkin_generated/installspace/.rosinstall")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/leizhao/Autonomous_RCRobot/build/gtest/cmake_install.cmake")
-  include("/home/leizhao/Autonomous_RCRobot/build/mpu6050_serial_to_imu/cmake_install.cmake")
+  include("/home/odroid/Autonomous_RCRobot/build/gtest/cmake_install.cmake")
+  include("/home/odroid/Autonomous_RCRobot/build/mpu6050_serial_to_imu/cmake_install.cmake")
 
 endif()
 
@@ -143,5 +143,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/leizhao/Autonomous_RCRobot/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/odroid/Autonomous_RCRobot/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

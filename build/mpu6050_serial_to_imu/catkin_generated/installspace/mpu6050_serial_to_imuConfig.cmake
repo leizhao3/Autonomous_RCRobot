@@ -67,14 +67,14 @@ set(mpu6050_serial_to_imu_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(mpu6050_serial_to_imu_SOURCE_PREFIX /home/leizhao/Autonomous_RCRobot/src/mpu6050_serial_to_imu)
-  set(mpu6050_serial_to_imu_DEVEL_PREFIX /home/leizhao/Autonomous_RCRobot/devel)
+  set(mpu6050_serial_to_imu_SOURCE_PREFIX /home/odroid/Autonomous_RCRobot/src/mpu6050_serial_to_imu)
+  set(mpu6050_serial_to_imu_DEVEL_PREFIX /home/odroid/Autonomous_RCRobot/devel)
   set(mpu6050_serial_to_imu_INSTALL_PREFIX "")
   set(mpu6050_serial_to_imu_PREFIX ${mpu6050_serial_to_imu_DEVEL_PREFIX})
 else()
   set(mpu6050_serial_to_imu_SOURCE_PREFIX "")
   set(mpu6050_serial_to_imu_DEVEL_PREFIX "")
-  set(mpu6050_serial_to_imu_INSTALL_PREFIX /home/leizhao/Autonomous_RCRobot/install)
+  set(mpu6050_serial_to_imu_INSTALL_PREFIX /home/odroid/Autonomous_RCRobot/install)
   set(mpu6050_serial_to_imu_PREFIX ${mpu6050_serial_to_imu_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/leizhao/Autonomous_RCRobot/install/lib;/opt/ros/melodic/lib)
+    foreach(path /home/odroid/Autonomous_RCRobot/install/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

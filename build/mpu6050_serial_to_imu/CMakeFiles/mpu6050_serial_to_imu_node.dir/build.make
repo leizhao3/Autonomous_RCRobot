@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/leizhao/Autonomous_RCRobot/src
+CMAKE_SOURCE_DIR = /home/odroid/Autonomous_RCRobot/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/leizhao/Autonomous_RCRobot/build
+CMAKE_BINARY_DIR = /home/odroid/Autonomous_RCRobot/build
 
 # Include any dependencies generated for this target.
 include mpu6050_serial_to_imu/CMakeFiles/mpu6050_serial_to_imu_node.dir/depend.make
@@ -58,17 +58,17 @@ include mpu6050_serial_to_imu/CMakeFiles/mpu6050_serial_to_imu_node.dir/progress
 include mpu6050_serial_to_imu/CMakeFiles/mpu6050_serial_to_imu_node.dir/flags.make
 
 mpu6050_serial_to_imu/CMakeFiles/mpu6050_serial_to_imu_node.dir/src/mpu6050_serial_to_imu_node.cpp.o: mpu6050_serial_to_imu/CMakeFiles/mpu6050_serial_to_imu_node.dir/flags.make
-mpu6050_serial_to_imu/CMakeFiles/mpu6050_serial_to_imu_node.dir/src/mpu6050_serial_to_imu_node.cpp.o: /home/leizhao/Autonomous_RCRobot/src/mpu6050_serial_to_imu/src/mpu6050_serial_to_imu_node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leizhao/Autonomous_RCRobot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object mpu6050_serial_to_imu/CMakeFiles/mpu6050_serial_to_imu_node.dir/src/mpu6050_serial_to_imu_node.cpp.o"
-	cd /home/leizhao/Autonomous_RCRobot/build/mpu6050_serial_to_imu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mpu6050_serial_to_imu_node.dir/src/mpu6050_serial_to_imu_node.cpp.o -c /home/leizhao/Autonomous_RCRobot/src/mpu6050_serial_to_imu/src/mpu6050_serial_to_imu_node.cpp
+mpu6050_serial_to_imu/CMakeFiles/mpu6050_serial_to_imu_node.dir/src/mpu6050_serial_to_imu_node.cpp.o: /home/odroid/Autonomous_RCRobot/src/mpu6050_serial_to_imu/src/mpu6050_serial_to_imu_node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/odroid/Autonomous_RCRobot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object mpu6050_serial_to_imu/CMakeFiles/mpu6050_serial_to_imu_node.dir/src/mpu6050_serial_to_imu_node.cpp.o"
+	cd /home/odroid/Autonomous_RCRobot/build/mpu6050_serial_to_imu && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mpu6050_serial_to_imu_node.dir/src/mpu6050_serial_to_imu_node.cpp.o -c /home/odroid/Autonomous_RCRobot/src/mpu6050_serial_to_imu/src/mpu6050_serial_to_imu_node.cpp
 
 mpu6050_serial_to_imu/CMakeFiles/mpu6050_serial_to_imu_node.dir/src/mpu6050_serial_to_imu_node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mpu6050_serial_to_imu_node.dir/src/mpu6050_serial_to_imu_node.cpp.i"
-	cd /home/leizhao/Autonomous_RCRobot/build/mpu6050_serial_to_imu && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leizhao/Autonomous_RCRobot/src/mpu6050_serial_to_imu/src/mpu6050_serial_to_imu_node.cpp > CMakeFiles/mpu6050_serial_to_imu_node.dir/src/mpu6050_serial_to_imu_node.cpp.i
+	cd /home/odroid/Autonomous_RCRobot/build/mpu6050_serial_to_imu && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/odroid/Autonomous_RCRobot/src/mpu6050_serial_to_imu/src/mpu6050_serial_to_imu_node.cpp > CMakeFiles/mpu6050_serial_to_imu_node.dir/src/mpu6050_serial_to_imu_node.cpp.i
 
 mpu6050_serial_to_imu/CMakeFiles/mpu6050_serial_to_imu_node.dir/src/mpu6050_serial_to_imu_node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mpu6050_serial_to_imu_node.dir/src/mpu6050_serial_to_imu_node.cpp.s"
-	cd /home/leizhao/Autonomous_RCRobot/build/mpu6050_serial_to_imu && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leizhao/Autonomous_RCRobot/src/mpu6050_serial_to_imu/src/mpu6050_serial_to_imu_node.cpp -o CMakeFiles/mpu6050_serial_to_imu_node.dir/src/mpu6050_serial_to_imu_node.cpp.s
+	cd /home/odroid/Autonomous_RCRobot/build/mpu6050_serial_to_imu && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/odroid/Autonomous_RCRobot/src/mpu6050_serial_to_imu/src/mpu6050_serial_to_imu_node.cpp -o CMakeFiles/mpu6050_serial_to_imu_node.dir/src/mpu6050_serial_to_imu_node.cpp.s
 
 mpu6050_serial_to_imu/CMakeFiles/mpu6050_serial_to_imu_node.dir/src/mpu6050_serial_to_imu_node.cpp.o.requires:
 
@@ -88,38 +88,38 @@ mpu6050_serial_to_imu_node_OBJECTS = \
 # External object files for target mpu6050_serial_to_imu_node
 mpu6050_serial_to_imu_node_EXTERNAL_OBJECTS =
 
-/home/leizhao/Autonomous_RCRobot/devel/lib/mpu6050_serial_to_imu/mpu6050_serial_to_imu_node: mpu6050_serial_to_imu/CMakeFiles/mpu6050_serial_to_imu_node.dir/src/mpu6050_serial_to_imu_node.cpp.o
-/home/leizhao/Autonomous_RCRobot/devel/lib/mpu6050_serial_to_imu/mpu6050_serial_to_imu_node: mpu6050_serial_to_imu/CMakeFiles/mpu6050_serial_to_imu_node.dir/build.make
-/home/leizhao/Autonomous_RCRobot/devel/lib/mpu6050_serial_to_imu/mpu6050_serial_to_imu_node: /opt/ros/melodic/lib/libserial.so
-/home/leizhao/Autonomous_RCRobot/devel/lib/mpu6050_serial_to_imu/mpu6050_serial_to_imu_node: /opt/ros/melodic/lib/libtf.so
-/home/leizhao/Autonomous_RCRobot/devel/lib/mpu6050_serial_to_imu/mpu6050_serial_to_imu_node: /opt/ros/melodic/lib/libtf2_ros.so
-/home/leizhao/Autonomous_RCRobot/devel/lib/mpu6050_serial_to_imu/mpu6050_serial_to_imu_node: /opt/ros/melodic/lib/libactionlib.so
-/home/leizhao/Autonomous_RCRobot/devel/lib/mpu6050_serial_to_imu/mpu6050_serial_to_imu_node: /opt/ros/melodic/lib/libmessage_filters.so
-/home/leizhao/Autonomous_RCRobot/devel/lib/mpu6050_serial_to_imu/mpu6050_serial_to_imu_node: /opt/ros/melodic/lib/libroscpp.so
-/home/leizhao/Autonomous_RCRobot/devel/lib/mpu6050_serial_to_imu/mpu6050_serial_to_imu_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/leizhao/Autonomous_RCRobot/devel/lib/mpu6050_serial_to_imu/mpu6050_serial_to_imu_node: /opt/ros/melodic/lib/libxmlrpcpp.so
-/home/leizhao/Autonomous_RCRobot/devel/lib/mpu6050_serial_to_imu/mpu6050_serial_to_imu_node: /opt/ros/melodic/lib/libtf2.so
-/home/leizhao/Autonomous_RCRobot/devel/lib/mpu6050_serial_to_imu/mpu6050_serial_to_imu_node: /opt/ros/melodic/lib/libroscpp_serialization.so
-/home/leizhao/Autonomous_RCRobot/devel/lib/mpu6050_serial_to_imu/mpu6050_serial_to_imu_node: /opt/ros/melodic/lib/librosconsole.so
-/home/leizhao/Autonomous_RCRobot/devel/lib/mpu6050_serial_to_imu/mpu6050_serial_to_imu_node: /opt/ros/melodic/lib/librosconsole_log4cxx.so
-/home/leizhao/Autonomous_RCRobot/devel/lib/mpu6050_serial_to_imu/mpu6050_serial_to_imu_node: /opt/ros/melodic/lib/librosconsole_backend_interface.so
-/home/leizhao/Autonomous_RCRobot/devel/lib/mpu6050_serial_to_imu/mpu6050_serial_to_imu_node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/leizhao/Autonomous_RCRobot/devel/lib/mpu6050_serial_to_imu/mpu6050_serial_to_imu_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/leizhao/Autonomous_RCRobot/devel/lib/mpu6050_serial_to_imu/mpu6050_serial_to_imu_node: /opt/ros/melodic/lib/librostime.so
-/home/leizhao/Autonomous_RCRobot/devel/lib/mpu6050_serial_to_imu/mpu6050_serial_to_imu_node: /opt/ros/melodic/lib/libcpp_common.so
-/home/leizhao/Autonomous_RCRobot/devel/lib/mpu6050_serial_to_imu/mpu6050_serial_to_imu_node: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/leizhao/Autonomous_RCRobot/devel/lib/mpu6050_serial_to_imu/mpu6050_serial_to_imu_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/leizhao/Autonomous_RCRobot/devel/lib/mpu6050_serial_to_imu/mpu6050_serial_to_imu_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/leizhao/Autonomous_RCRobot/devel/lib/mpu6050_serial_to_imu/mpu6050_serial_to_imu_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/leizhao/Autonomous_RCRobot/devel/lib/mpu6050_serial_to_imu/mpu6050_serial_to_imu_node: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/leizhao/Autonomous_RCRobot/devel/lib/mpu6050_serial_to_imu/mpu6050_serial_to_imu_node: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/leizhao/Autonomous_RCRobot/devel/lib/mpu6050_serial_to_imu/mpu6050_serial_to_imu_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/leizhao/Autonomous_RCRobot/devel/lib/mpu6050_serial_to_imu/mpu6050_serial_to_imu_node: mpu6050_serial_to_imu/CMakeFiles/mpu6050_serial_to_imu_node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/leizhao/Autonomous_RCRobot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/leizhao/Autonomous_RCRobot/devel/lib/mpu6050_serial_to_imu/mpu6050_serial_to_imu_node"
-	cd /home/leizhao/Autonomous_RCRobot/build/mpu6050_serial_to_imu && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mpu6050_serial_to_imu_node.dir/link.txt --verbose=$(VERBOSE)
+/home/odroid/Autonomous_RCRobot/devel/lib/mpu6050_serial_to_imu/mpu6050_serial_to_imu_node: mpu6050_serial_to_imu/CMakeFiles/mpu6050_serial_to_imu_node.dir/src/mpu6050_serial_to_imu_node.cpp.o
+/home/odroid/Autonomous_RCRobot/devel/lib/mpu6050_serial_to_imu/mpu6050_serial_to_imu_node: mpu6050_serial_to_imu/CMakeFiles/mpu6050_serial_to_imu_node.dir/build.make
+/home/odroid/Autonomous_RCRobot/devel/lib/mpu6050_serial_to_imu/mpu6050_serial_to_imu_node: /opt/ros/melodic/lib/libserial.so
+/home/odroid/Autonomous_RCRobot/devel/lib/mpu6050_serial_to_imu/mpu6050_serial_to_imu_node: /opt/ros/melodic/lib/libtf.so
+/home/odroid/Autonomous_RCRobot/devel/lib/mpu6050_serial_to_imu/mpu6050_serial_to_imu_node: /opt/ros/melodic/lib/libtf2_ros.so
+/home/odroid/Autonomous_RCRobot/devel/lib/mpu6050_serial_to_imu/mpu6050_serial_to_imu_node: /opt/ros/melodic/lib/libactionlib.so
+/home/odroid/Autonomous_RCRobot/devel/lib/mpu6050_serial_to_imu/mpu6050_serial_to_imu_node: /opt/ros/melodic/lib/libmessage_filters.so
+/home/odroid/Autonomous_RCRobot/devel/lib/mpu6050_serial_to_imu/mpu6050_serial_to_imu_node: /opt/ros/melodic/lib/libroscpp.so
+/home/odroid/Autonomous_RCRobot/devel/lib/mpu6050_serial_to_imu/mpu6050_serial_to_imu_node: /usr/lib/arm-linux-gnueabihf/libboost_filesystem.so
+/home/odroid/Autonomous_RCRobot/devel/lib/mpu6050_serial_to_imu/mpu6050_serial_to_imu_node: /opt/ros/melodic/lib/libxmlrpcpp.so
+/home/odroid/Autonomous_RCRobot/devel/lib/mpu6050_serial_to_imu/mpu6050_serial_to_imu_node: /opt/ros/melodic/lib/libtf2.so
+/home/odroid/Autonomous_RCRobot/devel/lib/mpu6050_serial_to_imu/mpu6050_serial_to_imu_node: /opt/ros/melodic/lib/libroscpp_serialization.so
+/home/odroid/Autonomous_RCRobot/devel/lib/mpu6050_serial_to_imu/mpu6050_serial_to_imu_node: /opt/ros/melodic/lib/librosconsole.so
+/home/odroid/Autonomous_RCRobot/devel/lib/mpu6050_serial_to_imu/mpu6050_serial_to_imu_node: /opt/ros/melodic/lib/librosconsole_log4cxx.so
+/home/odroid/Autonomous_RCRobot/devel/lib/mpu6050_serial_to_imu/mpu6050_serial_to_imu_node: /opt/ros/melodic/lib/librosconsole_backend_interface.so
+/home/odroid/Autonomous_RCRobot/devel/lib/mpu6050_serial_to_imu/mpu6050_serial_to_imu_node: /usr/lib/arm-linux-gnueabihf/liblog4cxx.so
+/home/odroid/Autonomous_RCRobot/devel/lib/mpu6050_serial_to_imu/mpu6050_serial_to_imu_node: /usr/lib/arm-linux-gnueabihf/libboost_regex.so
+/home/odroid/Autonomous_RCRobot/devel/lib/mpu6050_serial_to_imu/mpu6050_serial_to_imu_node: /opt/ros/melodic/lib/librostime.so
+/home/odroid/Autonomous_RCRobot/devel/lib/mpu6050_serial_to_imu/mpu6050_serial_to_imu_node: /opt/ros/melodic/lib/libcpp_common.so
+/home/odroid/Autonomous_RCRobot/devel/lib/mpu6050_serial_to_imu/mpu6050_serial_to_imu_node: /usr/lib/arm-linux-gnueabihf/libboost_system.so
+/home/odroid/Autonomous_RCRobot/devel/lib/mpu6050_serial_to_imu/mpu6050_serial_to_imu_node: /usr/lib/arm-linux-gnueabihf/libboost_thread.so
+/home/odroid/Autonomous_RCRobot/devel/lib/mpu6050_serial_to_imu/mpu6050_serial_to_imu_node: /usr/lib/arm-linux-gnueabihf/libboost_chrono.so
+/home/odroid/Autonomous_RCRobot/devel/lib/mpu6050_serial_to_imu/mpu6050_serial_to_imu_node: /usr/lib/arm-linux-gnueabihf/libboost_date_time.so
+/home/odroid/Autonomous_RCRobot/devel/lib/mpu6050_serial_to_imu/mpu6050_serial_to_imu_node: /usr/lib/arm-linux-gnueabihf/libboost_atomic.so
+/home/odroid/Autonomous_RCRobot/devel/lib/mpu6050_serial_to_imu/mpu6050_serial_to_imu_node: /usr/lib/arm-linux-gnueabihf/libpthread.so
+/home/odroid/Autonomous_RCRobot/devel/lib/mpu6050_serial_to_imu/mpu6050_serial_to_imu_node: /usr/lib/arm-linux-gnueabihf/libconsole_bridge.so.0.4
+/home/odroid/Autonomous_RCRobot/devel/lib/mpu6050_serial_to_imu/mpu6050_serial_to_imu_node: mpu6050_serial_to_imu/CMakeFiles/mpu6050_serial_to_imu_node.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/odroid/Autonomous_RCRobot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/odroid/Autonomous_RCRobot/devel/lib/mpu6050_serial_to_imu/mpu6050_serial_to_imu_node"
+	cd /home/odroid/Autonomous_RCRobot/build/mpu6050_serial_to_imu && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mpu6050_serial_to_imu_node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-mpu6050_serial_to_imu/CMakeFiles/mpu6050_serial_to_imu_node.dir/build: /home/leizhao/Autonomous_RCRobot/devel/lib/mpu6050_serial_to_imu/mpu6050_serial_to_imu_node
+mpu6050_serial_to_imu/CMakeFiles/mpu6050_serial_to_imu_node.dir/build: /home/odroid/Autonomous_RCRobot/devel/lib/mpu6050_serial_to_imu/mpu6050_serial_to_imu_node
 
 .PHONY : mpu6050_serial_to_imu/CMakeFiles/mpu6050_serial_to_imu_node.dir/build
 
@@ -128,10 +128,10 @@ mpu6050_serial_to_imu/CMakeFiles/mpu6050_serial_to_imu_node.dir/requires: mpu605
 .PHONY : mpu6050_serial_to_imu/CMakeFiles/mpu6050_serial_to_imu_node.dir/requires
 
 mpu6050_serial_to_imu/CMakeFiles/mpu6050_serial_to_imu_node.dir/clean:
-	cd /home/leizhao/Autonomous_RCRobot/build/mpu6050_serial_to_imu && $(CMAKE_COMMAND) -P CMakeFiles/mpu6050_serial_to_imu_node.dir/cmake_clean.cmake
+	cd /home/odroid/Autonomous_RCRobot/build/mpu6050_serial_to_imu && $(CMAKE_COMMAND) -P CMakeFiles/mpu6050_serial_to_imu_node.dir/cmake_clean.cmake
 .PHONY : mpu6050_serial_to_imu/CMakeFiles/mpu6050_serial_to_imu_node.dir/clean
 
 mpu6050_serial_to_imu/CMakeFiles/mpu6050_serial_to_imu_node.dir/depend:
-	cd /home/leizhao/Autonomous_RCRobot/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/leizhao/Autonomous_RCRobot/src /home/leizhao/Autonomous_RCRobot/src/mpu6050_serial_to_imu /home/leizhao/Autonomous_RCRobot/build /home/leizhao/Autonomous_RCRobot/build/mpu6050_serial_to_imu /home/leizhao/Autonomous_RCRobot/build/mpu6050_serial_to_imu/CMakeFiles/mpu6050_serial_to_imu_node.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/odroid/Autonomous_RCRobot/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/odroid/Autonomous_RCRobot/src /home/odroid/Autonomous_RCRobot/src/mpu6050_serial_to_imu /home/odroid/Autonomous_RCRobot/build /home/odroid/Autonomous_RCRobot/build/mpu6050_serial_to_imu /home/odroid/Autonomous_RCRobot/build/mpu6050_serial_to_imu/CMakeFiles/mpu6050_serial_to_imu_node.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : mpu6050_serial_to_imu/CMakeFiles/mpu6050_serial_to_imu_node.dir/depend
 

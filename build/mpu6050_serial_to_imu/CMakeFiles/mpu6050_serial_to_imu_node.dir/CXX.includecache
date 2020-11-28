@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/leizhao/Autonomous_RCRobot/src/mpu6050_serial_to_imu/src/mpu6050_serial_to_imu_node.cpp
+/home/odroid/Autonomous_RCRobot/src/mpu6050_serial_to_imu/src/mpu6050_serial_to_imu_node.cpp
 geometry_msgs/Quaternion.h
 -
 ros/ros.h

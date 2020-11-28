@@ -19,9 +19,9 @@ except ImportError:
             break
     from catkin.environment_cache import generate_environment_script
 
-code = generate_environment_script('/home/leizhao/Autonomous_RCRobot/devel/env.sh')
+code = generate_environment_script('/home/odroid/Autonomous_RCRobot/devel/env.sh')
 
-output_filename = '/home/leizhao/Autonomous_RCRobot/build/catkin_generated/setup_cached.sh'
+output_filename = '/home/odroid/Autonomous_RCRobot/build/catkin_generated/setup_cached.sh'
 with open(output_filename, 'w') as f:
     # print('Generate script for cached setup "%s"' % output_filename)
     f.write('\n'.join(code))

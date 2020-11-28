@@ -1,2 +1,2 @@
 mpu6050_serial_to_imu
--DCATKIN_DEVEL_PREFIX=/home/leizhao/Autonomous_RCRobot/devel -DCMAKE_INSTALL_PREFIX=/home/leizhao/Autonomous_RCRobot/install -G Unix Makefiles
+-DCATKIN_DEVEL_PREFIX=/home/odroid/Autonomous_RCRobot/devel -DCMAKE_INSTALL_PREFIX=/home/odroid/Autonomous_RCRobot/install -G Unix Makefiles

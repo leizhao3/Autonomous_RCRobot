@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/leizhao/Autonomous_RCRobot/src
+CMAKE_SOURCE_DIR = /home/odroid/Autonomous_RCRobot/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/leizhao/Autonomous_RCRobot/build
+CMAKE_BINARY_DIR = /home/odroid/Autonomous_RCRobot/build
 
 # Utility rule file for actionlib_generate_messages_py.
 
@@ -63,10 +63,10 @@ mpu6050_serial_to_imu/CMakeFiles/actionlib_generate_messages_py.dir/build: actio
 .PHONY : mpu6050_serial_to_imu/CMakeFiles/actionlib_generate_messages_py.dir/build
 
 mpu6050_serial_to_imu/CMakeFiles/actionlib_generate_messages_py.dir/clean:
-	cd /home/leizhao/Autonomous_RCRobot/build/mpu6050_serial_to_imu && $(CMAKE_COMMAND) -P CMakeFiles/actionlib_generate_messages_py.dir/cmake_clean.cmake
+	cd /home/odroid/Autonomous_RCRobot/build/mpu6050_serial_to_imu && $(CMAKE_COMMAND) -P CMakeFiles/actionlib_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : mpu6050_serial_to_imu/CMakeFiles/actionlib_generate_messages_py.dir/clean
 
 mpu6050_serial_to_imu/CMakeFiles/actionlib_generate_messages_py.dir/depend:
-	cd /home/leizhao/Autonomous_RCRobot/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/leizhao/Autonomous_RCRobot/src /home/leizhao/Autonomous_RCRobot/src/mpu6050_serial_to_imu /home/leizhao/Autonomous_RCRobot/build /home/leizhao/Autonomous_RCRobot/build/mpu6050_serial_to_imu /home/leizhao/Autonomous_RCRobot/build/mpu6050_serial_to_imu/CMakeFiles/actionlib_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/odroid/Autonomous_RCRobot/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/odroid/Autonomous_RCRobot/src /home/odroid/Autonomous_RCRobot/src/mpu6050_serial_to_imu /home/odroid/Autonomous_RCRobot/build /home/odroid/Autonomous_RCRobot/build/mpu6050_serial_to_imu /home/odroid/Autonomous_RCRobot/build/mpu6050_serial_to_imu/CMakeFiles/actionlib_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : mpu6050_serial_to_imu/CMakeFiles/actionlib_generate_messages_py.dir/depend
 
